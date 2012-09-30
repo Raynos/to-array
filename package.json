@@ -1,6 +1,6 @@
 {
   "name": "to-array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turn an array like into an array",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
@@ -16,8 +16,7 @@
     "url": "https://github.com/Raynos/to-array/issues",
     "email": "raynos2@gmail.com"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tap": "~0.3.1"
   },
