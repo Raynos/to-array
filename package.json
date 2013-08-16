@@ -28,5 +28,10 @@
   ],
   "scripts": {
     "test": "tap --stderr --tap ./test"
+  },
+  "component": {
+    "scripts": {
+      "to-array/index.js": "index.js"
+    }
   }
 }
