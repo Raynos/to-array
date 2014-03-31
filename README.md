@@ -1,6 +1,6 @@
 # to-array
 
-Turn an array like into an array
+Turn an array like into an array. Designed for browser support in older browsers.
 
 ## Example
 
@@ -10,6 +10,13 @@ var toArray = require("to-array")
 
 var array = toArray(elems)
 ```
+Can also return an array from a specific index
+
+```js
+(function () {
+  toArray(arguments, 2) // [3, 4]
+})(1, 2, 3, 4)
+```
 
 ## Installation
 
@@ -18,5 +25,6 @@ var array = toArray(elems)
 ## Contributors
 
  - Raynos
+ - [Olivier Scherrer](http://github.com/podefr)
 
 ## MIT Licenced
