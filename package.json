@@ -1,6 +1,6 @@
 {
   "name": "to-array",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Turn an array like into an array",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
@@ -9,7 +9,8 @@
   "homepage": "https://github.com/Raynos/to-array",
   "contributors": [
     {
-      "name": "Jake Verbaten"
+      "name": "Jake Verbaten",
+      "name": "Olivier Scherrer <pode.fr@gmail.com>"
     }
   ],
   "bugs": {
@@ -27,7 +28,7 @@
     }
   ],
   "scripts": {
-    "test": "tap --stderr --tap ./test"
+    "test": "tap --stderr --tap test/*"
   },
   "component": {
     "scripts": {
